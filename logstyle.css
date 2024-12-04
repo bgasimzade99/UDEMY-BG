@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header .login-nav a,
+header .register-btn {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.login-content {
+    display: flex;
+    width: 60%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.login-left img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.login-right {
+    padding: 30px;
+    flex: 1;
+}
+
+.login-right h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form .login-button:hover {
+    background-color: #5a0e84;
+}
+
+.social-login button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.google-login {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.facebook-login {
+    background-color: #4267b2;
+    color: #fff;
+}
+
+.apple-login {
+    background-color: #333;
+    color: #fff;
+}
+/* Circular Favicon (in-page display) */
+.circular-logo {
+    width: 50px; /* Adjust size */
+    height: 50px;
+    border: 2px solid #000; /* Border color */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures proper scaling */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+}

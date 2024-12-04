@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Sign Up</title>
+    <link rel="stylesheet" href="signstyle.css">
+</head>
+<body>
+    <header class="signup-header">
+        <div class="logo">
+            <img src="logo1.png" alt="Udemy Logo">
+        </div>
+        <nav class="signup-nav">
+            <a href="#categories">Categories</a>
+            <a href="#business">Udemy Business</a>
+            <a href="#teach">Teach on Udemy</a>
+            <a href="#login">Log In</a>
+            <button class="register-btn">Sign up</button>
+        </nav>
+    </header>
+
+    <main class="signup-container">
+        <div class="signup-content">
+            <div class="signup-left">
+                <img src="log1.jfif" alt="Illustration">
+            </div>
+            <div class="signup-right">
+                <h1>Sign up and start learning</h1>
+                <form id="signup-form" onsubmit="return handleSignUp(event)">
+                    <input type="text" id="fullname" placeholder="Full name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="offers">
+                        <label for="offers">Send me special offers, personalized recommendations, and learning tips.</label>
+                    </div>
+                    <button type="submit" class="signup-button">Sign up</button>
+                </form>
+                <p>By signing up you agree to our <a href="#terms">Terms of Use</a> and <a href="#privacy">Privacy Policy</a>.</p>
+                <p>Already have an account? <a href="login.html">Log in</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function handleSignUp(event) {
+            event.preventDefault(); // Prevent form submission
+            // Logic to save the data or authenticate
+            window.location.href = 'main.html'; // Replace with your main page link
+        }
+    </script>
+</body>
+</html>
