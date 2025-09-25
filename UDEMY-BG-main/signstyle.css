@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header .signup-nav a,
+header .register-btn {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.signup-content {
+    display: flex;
+    width: 70%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.signup-left img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.signup-right {
+    padding: 30px;
+    flex: 1;
+}
+
+.signup-right h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form .signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form .signup-button:hover {
+    background-color: #5a0e84;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.checkbox-container label {
+    font-size: 14px;
+    color: #555;
+}
